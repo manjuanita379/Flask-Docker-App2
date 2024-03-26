@@ -6,5 +6,5 @@ def hello_geek():
     return 'Hello from Flask & Docker'
 
 
-if __name__ == "__main__":
+if __name__ == "__development__":
     app.run(debug=True)
